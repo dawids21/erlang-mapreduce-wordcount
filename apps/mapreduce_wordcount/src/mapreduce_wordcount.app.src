@@ -1,0 +1,15 @@
+{application, mapreduce_wordcount, [
+    {description, "An OTP application"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {mapreduce_wordcount_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        mapreduce
+    ]},
+    {env, []},
+    {modules, []},
+    {licenses, ["Apache-2.0"]},
+    {links, []}
+ ]}.

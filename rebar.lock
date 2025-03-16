@@ -1,0 +1,12 @@
+{"1.2.0",
+[{<<"gproc">>,{pkg,<<"gproc">>,<<"1.0.0">>},1},
+ {<<"mapreduce">>,
+  {git,"https://github.com/dawids21/erlang-mapreduce",
+       {ref,"bede50d2e2ff0466dd6a02cd306dc8103d77498a"}},
+  0}]}.
+[
+{pkg_hash,[
+ {<<"gproc">>, <<"AA9EC57F6C9FF065B16D96924168D7C7157CD1FD457680EFE4B1274F456FA500">>}]},
+{pkg_hash_ext,[
+ {<<"gproc">>, <<"109F253C2787DE8A371A51179D4973230CBEC6239EE673FA12216A5CE7E4F902">>}]}
+].

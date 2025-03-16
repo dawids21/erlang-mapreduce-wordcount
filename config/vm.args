@@ -1,0 +1,6 @@
+-sname mapreduce_wordcount
+
+-setcookie mapreduce_wordcount_cookie
+
++K true
++A30
