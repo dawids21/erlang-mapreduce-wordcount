@@ -1,0 +1,11 @@
+[
+    {mapreduce_wordcount, []},
+    {mapreduce, [
+        {known_nodes, ['dap-project-node@localhost', 'second@localhost', 'third@localhost']},
+        {node_directory, "/tmp"},
+        {public_directory, "/public"}
+    ]},
+    {kernel, [
+        {logger_level, info}
+    ]}
+].
