@@ -1,7 +1,7 @@
 [
     {mapreduce_wordcount, []},
     {mapreduce, [
-        {known_nodes, ['dap-project-node@localhost', 'second@localhost', 'third@localhost']},
+        {known_nodes, ${KNOWN_NODES}},
         {node_directory, ${NODE_DIRECTORY}},
         {public_directory, ${PUBLIC_DIRECTORY}}
     ]},

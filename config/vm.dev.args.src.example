@@ -1,4 +1,4 @@
--sname mapreduce_wordcount
+-sname ${NAME}
 
 -setcookie mapreduce_wordcount_cookie
 

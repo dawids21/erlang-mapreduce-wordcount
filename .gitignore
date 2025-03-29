@@ -21,5 +21,8 @@ rebar3.crashdump
 input_*/
 output*/
 tmp/
+sys.dev.config.src
+vm.dev.args.src
 sys.config
+vm.args
 fprof.*
