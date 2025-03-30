@@ -2,5 +2,7 @@
 
 -setcookie mapreduce_wordcount_cookie
 
+-kernel inet_dist_listen_min 21100 inet_dist_listen_max 21199
+
 +K true
 +A30
