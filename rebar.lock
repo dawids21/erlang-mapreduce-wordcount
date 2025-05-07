@@ -2,7 +2,7 @@
 [{<<"gproc">>,{pkg,<<"gproc">>,<<"1.0.0">>},1},
  {<<"mapreduce">>,
   {git,"git@github.com:dawids21/erlang-mapreduce.git",
-       {ref,"cd636b4fee3e71fd059326ceb70d829f34c248a3"}},
+       {ref,"3a20797c5c5861536f7325ea5e717e28549e3ebb"}},
   0}]}.
 [
 {pkg_hash,[
