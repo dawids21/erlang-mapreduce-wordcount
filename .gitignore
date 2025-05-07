@@ -26,3 +26,4 @@ vm.dev.args.src
 sys.config
 vm.args
 fprof.*
+rebar.lock
