@@ -28,6 +28,7 @@ ENV NAME=mapreduce_wordcount \
     PUBLIC_DIRECTORY=/app/public \
     PROCESSING_POWER_MULTIPLIER=1 \
     LOGGER_LEVEL=info \
+    INJECT_EXCEPTION=false \
     RELX_OUT_FILE_PATH=/tmp
 
 COPY --from=builder /app /app

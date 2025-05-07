@@ -5,6 +5,7 @@
         {node_directory, "${NODE_DIRECTORY}"},
         {public_directory, "${PUBLIC_DIRECTORY}"},
         {processing_power_multiplier, "${PROCESSING_POWER_MULTIPLIER}"}
+        {inject_exception, ${INJECT_EXCEPTION}}
     ]},
     {kernel, [
         {logger_level, ${LOGGER_LEVEL}}

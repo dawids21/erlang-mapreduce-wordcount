@@ -5,6 +5,7 @@
         {node_directory, "/tmp"},
         {public_directory, "/public"},
         {processing_power_multiplier, "1"},
+        {inject_exception, false}
     ]},
     {kernel, [
         {logger_level, info}
