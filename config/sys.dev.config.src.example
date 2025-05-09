@@ -3,7 +3,8 @@
     {mapreduce, [
         {known_nodes, "first@localhost,second@localhost,third@localhost"},
         {node_directory, "/tmp"},
-        {public_directory, "/public"}
+        {public_directory, "/public"},
+        {processing_power_multiplier, "1"},
     ]},
     {kernel, [
         {logger_level, info}

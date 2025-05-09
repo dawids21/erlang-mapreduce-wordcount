@@ -26,6 +26,7 @@ ENV NAME=mapreduce_wordcount \
     KNOWN_NODES="mapreduce_wordcount@localhost" \
     NODE_DIRECTORY=/app/node \
     PUBLIC_DIRECTORY=/app/public \
+    PROCESSING_POWER_MULTIPLIER=1 \
     LOGGER_LEVEL=info \
     RELX_OUT_FILE_PATH=/tmp
 
