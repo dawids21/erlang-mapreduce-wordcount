@@ -8,5 +8,5 @@ map(Input) ->
     [
         {Word, 1}
      || Word <- string:tokens(string:trim(Input), " "),
-        string:trim(Word) =/= ""
+        not string:is_empty(Word)
     ].
