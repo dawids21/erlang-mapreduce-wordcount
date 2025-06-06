@@ -1,4 +1,5 @@
 # Erlang MapReduce
+Repozytorium zawiera rozwiązanie problemu liczenia słów w tekście za pomocą MapReduce w języku Erlang.
 ## Aplikacja serwerowa
 Aplikację najłatwiej uruchomić za pomocą narzędzia Docker.
 W celu uruchomienia aplikacji serwerowej należy utworzyć w obecnym katalogu folder `tmp`, a następnie wywołać komendę:
