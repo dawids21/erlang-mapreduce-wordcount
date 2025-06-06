@@ -1,4 +1,4 @@
-# Erlang MapReduce
+# Erlang MapReduce Word Count
 Repozytorium zawiera rozwiązanie problemu liczenia słów w tekście za pomocą MapReduce w języku Erlang.
 ## Aplikacja serwerowa
 Aplikację najłatwiej uruchomić za pomocą narzędzia Docker.
