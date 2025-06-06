@@ -16,7 +16,7 @@ docker run -d \
 ```
 gdzie:
   - `NAME` - nazwa danej instancji (ważna, jeżeli testowane jest przetwarzanie na więcej niż jednym węźle),
-  - `KNOWN_NODES` - lista instancji aplikacji dla przetwarzania na więcej niż jednym węźle w postaci `NAME_1@IP_1,NAME_2@IP_2`.
+  - `KNOWN_NODES` - lista instancji aplikacji dla przetwarzania na więcej niż jednym węźle w postaci `NAME_1@HOSTNAME_1,NAME_2@HOSTNAME_2`.
 
 Testowanie przetwarzania na więcej niż jednym węźle może być wykonane na tej samej maszynie i z wykorzystaniem adresu `localhost`.
 
